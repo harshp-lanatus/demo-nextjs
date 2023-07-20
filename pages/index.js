@@ -27,6 +27,12 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <meta
+          http-equiv="Content-Security-Policy"
+          content="upgrade-insecure-requests"
+        />
+      </Head>
       <div>Next js Project</div>
     </>
   );
